@@ -11,4 +11,5 @@ spec:
           name: demovolume
   volumes:
     - name: demovolume
-      persistentVolumeClaim: demo-pvc
+      persistentVolumeClaim:
+        claimName: demo-pvc
